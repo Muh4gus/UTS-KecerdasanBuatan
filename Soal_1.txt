@@ -1,0 +1,37 @@
+
+1. Rule
+- Jika daun menguning dan tanaman layu → maka kemungkinan terkena hama ulat tanah.
+- Jika terdapat bercak hitam dan daun menguning → maka kemungkinan terkena hama jamur.
+- Jika daun berlubang → maka kemungkinan terkena hama ulat daun.
+- Jika daun berlubang dan terdapat bercak hitam → maka kemungkinan terkena hama kumbang daun.
+
+2. Logika Proposional
+Misal :
+A = daun menguning
+B = terdapat bercak hitam
+C = daun berlubang
+D = tanaman layu
+H1 = ulat tanah
+H2 = jamur
+H3 = ulat daun
+H4 = kumbang daun
+Aturan dalam logika Proposional :
+ 1.) (A ∧ D) → H1
+ 2,) (B ∧ A) → H2
+ 3.) C → H3
+ 4.) (C ∧ B) → H4
+
+3. Pseudocode
+Input: Gejala tanaman (A, B, C, D)
+Output: Jenis hama
+
+IF A AND D THEN
+    Hama = "Ulat Tanah"
+ELSE IF B AND A THEN
+    Hama = "Jamur"
+ELSE IF C AND B THEN
+    Hama = "Kumbang Daun"
+ELSE IF C THEN
+    Hama = "Ulat Daun"
+ELSE
+    Hama = "Tidak diketahui"
