@@ -1,1 +1,3 @@
 # UTS-KecerdasanBuatan
+
+ini bertujuan
