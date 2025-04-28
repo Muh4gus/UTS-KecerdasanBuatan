@@ -10,3 +10,7 @@ Isi Repositori
 2. Soal_2_review_jurnal : Review ini membahas jurnal "Artificial Intelligence-Based Mobile Health Solutions in the Health 4.0 Era", yang mengulas peran kecerdasan buatan dalam pengembangan solusi kesehatan mobile di era Health 4.0.
 
 3. Data pendukung : Pada direktori ini terdapat kode program Python untuk penyelesaian soal nomor 1, serta jurnal yang digunakan sebagai bahan untuk kegiatan review. Jurnal yang direview berjudul "Artificial Intelligence-Based Mobile Health Solutions in the Health 4.0 Era".
+
+Tujuan proyek:
+1. Mengimplementasikan sistem pakar berbasis aturan logika dalam permasalahan dunia nyata
+2. Melakukan analisis dan evaluasi terhadap jurnal ilmiah tentang kecerdasan buatan (AI), sekaligus mengidentifikasi peluang untuk pengembangan lebih lanjut
